@@ -1,0 +1,27 @@
+# Environnements virtuels
+venv/
+env/
+.env/
+__pycache__/
+node_modules/
+
+# Logs
+*.log
+
+# Modèles LLM lourds (ajuster selon formats connus)
+*.bin
+*.gguf
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+
+# Fichiers temporaires et caches
+*.tmp
+*.cache
+*.DS_Store
+
+# Configuration sensible
+secret*
+*key*
+*token*
